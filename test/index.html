@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../src/cryptos.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            console.log(cryptos.caesar.encrypt("test string", 4))
+            console.log(cryptos.caesar.decrypt("xiwx wxvmrk", 4))
+            console.log(cryptos.rot13.encrypt("test string"))
+            console.log(cryptos.rot13.decrypt("grfg fgevat"))
+            console.log(cryptos.bacon.encrypt("test string"))
+            console.log(cryptos.bacon.decrypt("BAABBAABAABAABABAABB BAABABAABBBAAABABAAAABBABAABBA"))
+        </script>
+    </body>
+</html>
