@@ -1,5 +1,5 @@
 # cryptos
-JavaScript tool for encrypting/decrypting classical ciphers
+JavaScript tool for encrypting and decrypting classical ciphers
 
 ## Instalation
 Simply include cryptos.js (or minified version) to your html document.
@@ -15,9 +15,9 @@ cryptos.cipherName.methodName(arguments)
 ```
 Example:
 ```javascript
-cryptos.caesar.encode("Hello world!", 4)
+cryptos.caesar.encrypt("Hello world!", 4)
 //outputs Lipps asvph!
-cryptos.caesar.decode("Lipps asvph!", 4)
+cryptos.caesar.decrypt("Lipps asvph!", 4)
 //outputs Hello world!
 ```
 
@@ -25,3 +25,4 @@ cryptos.caesar.decode("Lipps asvph!", 4)
 * [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 * [ROT13](https://en.wikipedia.org/wiki/ROT13)
 * [Bacon's cipher](https://en.wikipedia.org/wiki/Bacon%27s_cipher)
+* [Atbash](https://en.wikipedia.org/wiki/Atbash)
